@@ -3,14 +3,392 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Hasibul Islam Shanto - Portfolio</title>
+  <meta name="description" content="Md Hasibul Islam Shanto - Senior Software Engineer specializing in ASP.NET Core, Angular, and MS SQL Server" />
+  <title>Md Hasibul Islam Shanto - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
-  <h1>Hasibul Islam Shanto</h1>
-  <p>Senior Software Engineer | .NET | Angular | DevOps</p>
-  <p>Dhaka, Bangladesh</p>
-  <h2>About Me</h2>
-  <p>I am a passionate and dedicated Senior Software Engineer...</p>
-  <!-- Add rest of your portfolio content here -->
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-brand">
+        <h2>HIS</h2>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Hi, I'm <span class="highlight">Md Hasibul Islam Shanto</span></h1>
+        <h2 class="hero-subtitle">Senior Software Engineer</h2>
+        <p class="hero-description">ASP.NET Core | Angular | MS SQL Server</p>
+        <p class="hero-location"><i class="fas fa-map-marker-alt"></i> Gazipur, Bangladesh</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Get In Touch</a>
+          <a href="#projects" class="btn btn-secondary">View My Work</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Senior Software Engineer with over 5 years of hands-on experience in designing, developing, deploying, and maintaining enterprise web applications. Skilled in ASP.NET Core, Angular, and MS SQL Server.</p>
+          <p>Known for improving legacy systems, reducing bugs, implementing reusable components, and collaborating directly with international teams. I have successfully worked on various projects including Hospital ERP systems, network marketing platforms, and HR management solutions.</p>
+          <p>Focused on writing clean, maintainable code and delivering stable solutions that align with business needs. I excel in collecting requirements from global clients, translating them into technical specifications, and implementing features that drive business value.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">Skills & Technologies</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Backend Development</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">ASP.NET Core</span>
+            <span class="skill-tag">C#</span>
+            <span class="skill-tag">Entity Framework Core</span>
+            <span class="skill-tag">Web API</span>
+            <span class="skill-tag">Code First</span>
+            <span class="skill-tag">LINQ</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-laptop-code"></i> Frontend Development</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Angular</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">AngularJS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-database"></i> Database</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">MS SQL Server</span>
+            <span class="skill-tag">T-SQL</span>
+            <span class="skill-tag">Database Design</span>
+            <span class="skill-tag">Query Optimization</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">AWS Lambda</span>
+            <span class="skill-tag">AWS S3</span>
+            <span class="skill-tag">AWS Rekognition</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Nginx</span>
+            <span class="skill-tag">Windows Server</span>
+            <span class="skill-tag">IIS</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">GitLab</span>
+            <span class="skill-tag">Bitbucket</span>
+            <span class="skill-tag">Jira</span>
+            <span class="skill-tag">Visual Studio</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Rider</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-cogs"></i> Additional Skills</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">RESTful APIs</span>
+            <span class="skill-tag">GraphQL</span>
+            <span class="skill-tag">RabbitMQ</span>
+            <span class="skill-tag">MQTT</span>
+            <span class="skill-tag">IdentityServer4</span>
+            <span class="skill-tag">OAuth 2.0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience">
+    <div class="container">
+      <h2 class="section-title">Work Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Senior Software Engineer</h3>
+            <h4>Pridesys IT Ltd.</h4>
+            <p class="timeline-date"><i class="far fa-calendar-alt"></i> January 2024 - Present | Kawranbazar, Dhaka, Bangladesh</p>
+            <ul>
+              <li>Maintaining and enhancing a legacy Hospital ERP system using .NET Core, EF Core, SQL Server, and Angular</li>
+              <li>Implemented critical business modules including a paid calendar feature</li>
+              <li>Collected tasks and requirements from global clients, discussed with managers and team, and delivered features</li>
+              <li>Helped reduce legacy bugs by identifying issues, refactoring code, and improving stability</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Software Engineer</h3>
+            <h4>Nybsys (Pvt.) Ltd</h4>
+            <p class="timeline-date"><i class="far fa-calendar-alt"></i> April 2022 - January 2024 | Mirpur, Dhaka, Bangladesh</p>
+            <ul>
+              <li>Rebuilt and optimized UI for internal management console using Angular</li>
+              <li>Integrated AWS Rekognition and S3 with .NET Core backend services</li>
+              <li>Developed REST APIs and GraphQL endpoints for AWS Lambda</li>
+              <li>Migrated projects from .NET Framework to .NET Core for better performance</li>
+              <li>Contributed to the Deduction Administration System implementing new features with AngularJS, Angular, and SQL Server</li>
+              <li>Updated the system to be Docker-compatible and deployed using Docker and Nginx, improving scalability</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Associate Software Engineer</h3>
+            <h4>AITS Idea Ltd.</h4>
+            <p class="timeline-date"><i class="far fa-calendar-alt"></i> January 2021 - March 2022 | Uttara, Dhaka, Bangladesh</p>
+            <ul>
+              <li>Developed and implemented complex backend algorithms for a network marketing platform supporting 50,000+ daily active users</li>
+              <li>Integrated third-party biometric attendance devices with in-house HR system, automating check-in processes</li>
+              <li>Optimized Angular component architecture and implemented lazy loading strategies, decreasing page load times by 40%</li>
+              <li>Managed end-to-end deployment environments on Windows Server 2019, including IIS configuration and domain setup</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Junior Software Engineer</h3>
+            <h4>AITS Idea Ltd.</h4>
+            <p class="timeline-date"><i class="far fa-calendar-alt"></i> August 2020 - December 2020 | Adabor, Dhaka, Bangladesh</p>
+            <ul>
+              <li>Implemented secure authentication and authorization system using IdentityServer4 and OAuth 2.0 protocols</li>
+              <li>Collaborated with core development team to design and build key features for in-house web applications</li>
+              <li>Translated client business requirements into technical specifications and user stories for development backlog</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header">
+            <h3>Hospital ERP System</h3>
+          </div>
+          <div class="project-body">
+            <p>A comprehensive Hospital ERP system managing patient records, appointments, billing, and medical workflows. Successfully implemented critical business modules and improved system stability.</p>
+            <div class="project-tech">
+              <span class="tech-tag">.NET Core</span>
+              <span class="tech-tag">EF Core</span>
+              <span class="tech-tag">Angular</span>
+              <span class="tech-tag">SQL Server</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <h3>AWS Face Recognition System</h3>
+          </div>
+          <div class="project-body">
+            <p>Integrated AWS Rekognition and S3 with .NET Core backend services. Developed REST APIs and GraphQL endpoints for AWS Lambda to provide facial recognition capabilities.</p>
+            <div class="project-tech">
+              <span class="tech-tag">AWS Lambda</span>
+              <span class="tech-tag">AWS Rekognition</span>
+              <span class="tech-tag">.NET Core</span>
+              <span class="tech-tag">GraphQL</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <h3>Network Marketing Platform</h3>
+          </div>
+          <div class="project-body">
+            <p>Developed complex backend algorithms for a network marketing platform supporting over 50,000 daily active users with real-time commission calculations and member management.</p>
+            <div class="project-tech">
+              <span class="tech-tag">.NET Core</span>
+              <span class="tech-tag">EF Core</span>
+              <span class="tech-tag">Angular</span>
+              <span class="tech-tag">SQL Server</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <h3>HR Management System with Biometric Integration</h3>
+          </div>
+          <div class="project-body">
+            <p>Integrated third-party biometric attendance devices with in-house HR system, automating employee check-in processes and eliminating manual data entry errors.</p>
+            <div class="project-tech">
+              <span class="tech-tag">.NET Core</span>
+              <span class="tech-tag">Angular</span>
+              <span class="tech-tag">SQL Server</span>
+              <span class="tech-tag">Biometric API</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <h3>Deduction Administration System</h3>
+          </div>
+          <div class="project-body">
+            <p>Maintained and enhanced a deduction management system. Updated the system to be Docker-compatible and successfully deployed using Docker and Nginx for improved scalability.</p>
+            <div class="project-tech">
+              <span class="tech-tag">.NET Core</span>
+              <span class="tech-tag">Angular</span>
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">Nginx</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <h3>Authentication & Authorization System</h3>
+          </div>
+          <div class="project-body">
+            <p>Implemented secure authentication and authorization system for enterprise applications using IdentityServer4 and OAuth 2.0 protocols with role-based access control.</p>
+            <div class="project-tech">
+              <span class="tech-tag">IdentityServer4</span>
+              <span class="tech-tag">OAuth 2.0</span>
+              <span class="tech-tag">.NET Core</span>
+              <span class="tech-tag">Angular</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education">
+    <div class="container">
+      <h2 class="section-title">Education & Certifications</h2>
+      <div class="education-grid">
+        <div class="education-card">
+          <div class="education-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3>Master of Engineering in Computer Science and Engineering</h3>
+          <h4>Dhaka University of Engineering and Technology</h4>
+          <p class="education-date">2022 - Present | Gazipur, 1700</p>
+        </div>
+        <div class="education-card">
+          <div class="education-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3>Bachelor of Engineering in Computer Science and Engineering</h3>
+          <h4>Model Institute of Science and Technology</h4>
+          <p class="education-date">2015 - 2018 | Gazipur, 1700</p>
+        </div>
+        <div class="education-card">
+          <div class="education-icon">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <h3>ASP.NET Core MVC with Angular and EF-Core</h3>
+          <h4>BASIS Institute of Technology & Management</h4>
+          <p class="education-date">October 2019 - January 2020</p>
+        </div>
+        <div class="education-card">
+          <div class="education-icon">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <h3>Web Application Development - Dot Net</h3>
+          <h4>BASIS Institute of Technology & Management</h4>
+          <p class="education-date">June 2018 - September 2018</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-intro">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>hsibbd@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h4>Phone</h4>
+              <p>+8801949-091312</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Location</h4>
+              <p>H#347/2, Nayapara, Kashimpur, Gazipur Sadar, Gazipur - 1746</p>
+            </div>
+          </div>
+        </div>
+        <div class="social-links">
+          <h3>Connect With Me</h3>
+          <div class="social-icons">
+            <a href="https://linkedin.com/in/hsibbd" target="_blank" class="social-icon" title="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/bdshanto" target="_blank" class="social-icon" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://twitter.com/bdshanto" target="_blank" class="social-icon" title="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="mailto:hsibbd@gmail.com" class="social-icon" title="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Md Hasibul Islam Shanto. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
